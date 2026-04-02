@@ -1,0 +1,11 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.4.1",
+    "pypdf>=6.9.2",
+    "pypdf2>=3.0.1",
+]
