@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "langchain>=1.2.15",
     "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.12",
+    "pdfplumber>=0.11.9",
+    "psutil>=7.2.2",
     "pypdf>=6.9.2",
     "pypdf2>=3.0.1",
 ]
